@@ -41,7 +41,7 @@ def parse(data):
  
  
 # CSV函数：将数据写入CSV文件
-def csv(items, file_path='1000.csv'):
+def csv(items, file_path='data/1000.csv'):
     # 如果文件不存在，创建文件并写入列名
     try:
         pd.read_csv(file_path)
