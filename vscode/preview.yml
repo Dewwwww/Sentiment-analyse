@@ -2,7 +2,7 @@
 autoOpen: true # 打开工作空间时是否自动开启所有应用的预览
 apps:
   - port: 5000 # 应用的端口
-    run: pip install pip install -r ./code/requirements.txt && python ./code/lstm.py # 应用启动命令
+    run: pip install pip install -r ./code/requirements.txt && python ./code/pc.py && python ./code/lstm.py # 应用启动命令
     root: ./ # 应用的启动目录
     name: Sentiment-analyse # 应用名称
     description: Sentiment-analyse # 应用描述
